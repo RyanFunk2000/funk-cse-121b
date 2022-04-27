@@ -22,8 +22,6 @@ const picture = "images/me.jpg";
 // Step 7: place the value of the picture variable into the HTML file (hint: document.querySelector().setAttribute())
 document.querySelector('img').setAttribute('src', picture);
 
-
-
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
@@ -52,5 +50,3 @@ food.pop();
 
 // Step 7: repeat Step 2
 document.querySelector('#food').innerHTML = food;
-
-
