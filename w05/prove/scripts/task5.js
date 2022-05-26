@@ -49,7 +49,7 @@ switch (new Date().getDay()) {
         break;
     case 6:
         message2 = "Saturday";
-  }
+}
 
 
 /* OUTPUT */

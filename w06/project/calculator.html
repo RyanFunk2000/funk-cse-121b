@@ -1,0 +1,51 @@
+<!-- calculator.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Game Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <h1>Video Game Time Bonus Calculator</h1>
+    <h3>This program is designed to be used for the video game 'Sonic Unleashed' to calculate how the time bonus behaves for a given level.<br>
+        To begin calculation, enter results score data from two different play sessions of a single level.</h3>
+    <section>
+      <p>Enter results from the first play session here:</p>
+      <label>NOTE: Input TIME in ##:##:## format.</label><br>
+      <label for="time">TIME</label>
+      <input name="time" id="time1" /><br>
+      <label for="rings">RINGS</label>
+      <input name="rings" id="rings1" /><br>
+      <label for="speed">SPEED</label>
+      <input name="speed" id="speed1" /><br>
+      <label for="enemy">ENEMY</label>
+      <input name="enemy" id="enemy1" /><br>
+      <label for="tricks">TRICKS</label>
+      <input name="tricks" id="tricks1" /><br>
+      <label for="total">TOTAL</label>
+      <input name="total" id="total1" />
+    </section>
+    <section>
+      <p>Enter results from the second play session here:</p>
+      <label>NOTE: Input TIME in ##:##:## format.</label><br>
+      <label for="time">TIME</label>
+      <input name="time" id="time2" /><br>
+      <label for="rings">RINGS</label>
+      <input name="rings" id="rings2" /><br>
+      <label for="speed">SPEED</label>
+      <input name="speed" id="speed2" /><br>
+      <label for="enemy">ENEMY</label>
+      <input name="enemy" id="enemy2" /><br>
+      <label for="tricks">TRICKS</label>
+      <input name="tricks" id="tricks2" /><br>
+      <label for="total">TOTAL</label>
+      <input name="total" id="total2" />
+    </section>
+    <button id="submitInput">Submit</button>
+    <section id="results" class="results"></section>
+    <script src="calculator.js" type="module"></script>
+  </body>
+</html>
